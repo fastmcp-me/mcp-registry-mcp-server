@@ -36,10 +36,10 @@ Sample configuration (double check the documentation of your MCP client for exac
 
 Once configured, you can ask your AI assistant natural language questions like:
 
-- "What MCP servers are available?"
+- "What new MCP servers have recently been released?"
 - "Search for filesystem-related MCP servers"
-- "Show me the latest version of the GitHub MCP server"
-- "Get details about the Slack MCP server"
+- "Show me the latest version of the github-mcp-server"
+- "Get details about the Chrome DevTools MCP server"
 - "Is the MCP registry healthy?"
 
 The AI will automatically use the appropriate registry tools to answer your questions.
