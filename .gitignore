@@ -27,3 +27,6 @@ yarn-error.log*
 
 # OS files
 Thumbs.db
+
+# MCP registry
+.mcpregistry*
