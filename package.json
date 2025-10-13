@@ -1,7 +1,7 @@
 {
   "name": "mcp-registry-mcp-server",
-  "mcpName": "io.github.wei/mcp-registry",
-  "version": "1.1.0",
+  "mcpName": "io.github.wei/mcp-registry-mcp-server",
+  "version": "1.1.1",
   "description": "MCP server for querying the MCP registry",
   "keywords": [
     "mcp",
