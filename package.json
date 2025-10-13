@@ -1,0 +1,52 @@
+{
+  "name": "mcp-registry-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for querying the MCP registry",
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "registry",
+    "server",
+    "ai",
+    "llm"
+  ],
+  "author": "Wei He <github@weispot.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wei/mcp-registry-mcp-server"
+  },
+  "bugs": {
+    "url": "https://github.com/wei/mcp-registry-mcp-server/issues"
+  },
+  "homepage": "https://github.com/wei/mcp-registry-mcp-server#readme",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "bin": {
+    "mcp-registry-server": "./dist/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc && chmod +x dist/index.js",
+    "watch": "tsc --watch",
+    "prepare": "npm run build",
+    "clean": "rm -rf dist",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "typescript": "^5.7.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

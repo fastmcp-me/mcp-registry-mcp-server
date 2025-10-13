@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Source files (we only want dist in npm package)
+src/
+tsconfig.json
+
+# Development files
+*.log
+.DS_Store
+.env
+.env.local
+.vscode/
+.idea/
+
+# Testing
+coverage/
+*.test.ts
+*.spec.ts
+
+# Build artifacts
+*.tsbuildinfo
