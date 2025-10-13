@@ -7,9 +7,14 @@
  * Implements endpoints for listing servers, getting server details, and health checks.
  */
 
+import { createRequire } from "node:module";
 import { McpServer } from '@modelcontextprotocol/sdk/server/mcp.js';
 import { StdioServerTransport } from '@modelcontextprotocol/sdk/server/stdio.js';
 import { z } from 'zod';
+
+const require = createRequire(import.meta.url);
+const packageJson = require("../package.json");
+
 import type {
   ServerList,
   ServerResponse,
@@ -44,8 +49,8 @@ async function fetchFromRegistry<T>(path: string): Promise<T> {
  */
 function createServer(): McpServer {
   const server = new McpServer({
-    name: 'mcp-registry-server',
-    version: '1.0.0',
+    name: packageJson.name,
+    version: packageJson.version,
   });
 
   // Tool: List all servers

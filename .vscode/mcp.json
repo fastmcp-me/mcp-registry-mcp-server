@@ -1,0 +1,10 @@
+{
+    "servers": {
+        "mcp-registry-mcp-server": {
+            "command": "node",
+            "args": [
+                "dist/index.js"
+            ]
+        }
+    }
+}
