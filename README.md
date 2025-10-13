@@ -15,41 +15,12 @@ A Model Context Protocol (MCP) server that provides tools to query the official 
 
 ## 🚀 Quick Start
 
-### VS Code (GitHub Copilot)
-
 [![Install in VS Code](https://img.shields.io/badge/VS_Code-Install_MCP-0098FF?style=for-the-badge&logo=visualstudiocode&logoColor=ffffff)](https://insiders.vscode.dev/redirect/mcp/install?name=mcp-registry-mcp-server&config=%7B%22type%22%3A%22stdio%22%2C%22command%22%3A%22npx%22%2C%22args%22%3A%5B%22-y%20mcp-registry-mcp-server%22%5D%7D)
-
-**Manual Setup**: Add to your VS Code MCP settings:
-
-```json
-{
-  "mcp-registry-mcp-server": {
-    "type": "stdio",
-    "command": "npx",
-    "args": ["-y", "mcp-registry-mcp-server"]
-  }
-}
-```
-
-### Cursor
-
-[![Install MCP Server](https://cursor.com/deeplink/mcp-install-dark.svg)](https://cursor.com/en-US/install-mcp?name=mcp-registry-mcp-server&config=eyJjb21tYW5kIjoibnB4IC15IG1jcC1yZWdpc3RyeS1tY3Atc2VydmVyIn0%3D)
-
-**Manual Setup**: Add to your Cursor MCP configuration:
-
-```json
-{
-  "mcp-registry-mcp-server": {
-    "type": "stdio",
-    "command": "npx",
-    "args": ["-y", "mcp-registry-mcp-server"]
-  }
-}
-```
+[![Install in Cursor](https://cursor.com/deeplink/mcp-install-dark.svg)](https://cursor.com/en-US/install-mcp?name=mcp-registry-mcp-server&config=eyJjb21tYW5kIjoibnB4IC15IG1jcC1yZWdpc3RyeS1tY3Atc2VydmVyIn0%3D)
 
 ### Other Clients
 
-Sample configuration (double check your client's documentation for MCP configuration):
+Sample configuration (double check the documentation of your MCP client for exact syntax and file locations):
 
 ```json
 {
